@@ -12,8 +12,8 @@ window.addEventListener("load",_=>{
   const verts = [
     -1,-1,
     -1,1,
-    1,-1,
-    1,1
+    0.9,-0.9,
+    0.9,0.9
   ];
   // Vertex Buffer Object (saved in GPU)
   const vbo = gl.createBuffer(); // create
